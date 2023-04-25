@@ -6,5 +6,7 @@
 # #+PROPERTY: header-args :eval no
 
 
+We'll use PySpark to take a look at the NYU FDIC Call Report Dataset.  
+
 
 
