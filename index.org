@@ -5,6 +5,9 @@
 
 # #+PROPERTY: header-args :eval no
 
+[[https://spark.apache.org/][Apache Spark]] is an analytics engine used to process large amounts of data.  In practice I use Spark when I am working with datasets that are too large to fit in memory.  Spark allows me to perform standard data handling tasks, such as subsetting, selecting, and grouping data.  In fact, Spark even allows you to do these operations using SQL syntax.  Spark also includes common machine learning routines, such as clustering and logistic regression (see [[https://spark.apache.org/mllib/][MLib]]).
+
+You can use Spark in Java, Scala, Python, and R.  In finance you will generally use Python or R.  To use Spark from Python install the PySpark package.  Similarly in R you can install the SparkR package (though the versions on CRAN are out-of-date). In the following we'll use PySpark.
 
 We'll use PySpark to take a look at the NYU FDIC Call Report Dataset.  
 
